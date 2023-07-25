@@ -1,0 +1,178 @@
+body{
+    font: arial, helvetica, sans-serif;
+}
+#container{
+    width: 1100px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    
+
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+
+}
+#brand {
+    float: left;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 15px;
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(image/LogoMakr-6Hr6Tr.png) right center no-repeat;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #d132b9;
+    font-size: 15px;
+
+}
+.clear{
+    clear: both;
+}
+#menu {
+    height: 70px;
+    background: linear-gradient(#F8F594, #D5D533);
+    padding: 7px 0;
+
+}
+ul{
+    list-style:none;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+
+    
+}*/
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    /* for safari */
+    -webkit-transition: font-size 0.3s ease;
+    /* for Mozilla */
+    -moz-transition: font-size 0.3s ease;
+    /* for Oprah */
+    -o-transition: font-size 0.3s ease;
+    /* for Internet Explorer */
+    -ms-transition: font-size 0.3s ease;
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #d132b9;
+}
+#introbox{
+    background: linear-gradient(#E5F2BB, #B7E952);
+    padding: 25px;
+    margin: 20px 0px;
+    
+
+
+}
+#introbox h3{
+    font-size: 40px;
+    color: #316901;
+    font-weight: normal;
+
+}
+#introbox p{
+    font-size: 20px;
+    color: #628F19;
+}
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 19px;
+}
+.sidebar h3{
+    color: #d132b9;
+    font-size: 30px;
+
+}
+.sidebar ul{
+    padding-top: 8px;
+    
+
+}
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+
+}
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(image/LogoMakr-8SwXdF.png);
+}
+#rightsidebar ul li {
+    padding-bottom: 15px;
+    padding-top: 15x;
+    list-style-image: url(image/Tick.png);
+}
+
+.sidebar ul li a:hover,
+sidebar ul li a.active {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: #ac1896;
+    transition: font-size 0.3s ease;
+        /* for safari */
+        -webkit-transition: font-size 0.3s ease;
+        /* for Mozilla */
+        -moz-transition: font-size 0.3s ease;
+        /* for Oprah */
+        -o-transition: font-size 0.3s ease;
+        /* for Internet Explorer */
+        -ms-transition: font-size 0.3s ease;
+}
+#leftsidebar{
+    float: left; 
+    
+}
+#rightsidebar{
+    float: left;
+   /* line-height: 40px;*/
+    
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(#F8F594, #D5D533);
+    padding: 10px 20px;
+    margin: 10px;
+    
+}
+
+
